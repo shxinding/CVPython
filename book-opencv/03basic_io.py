@@ -68,3 +68,28 @@ bgrImage = flatNumpyArray.reshape(100,400,3)
 cv2.imwrite('img/p2_convert_bgr.png',bgrImage)
 
 # 改变像素颜色
+img = cv2.imread('img/p2.jpeg')
+img[:,:,1] = 0
+cv2.imwrite('img/p2_no_green.png',img)
+
+# 感兴趣区域（Region of Interest, ROI)
+img = cv2.imread('img/p2.jpeg')
+my_roi = img[0:20,0:20]
+img[10:30,10:30] = my_roi
+cv2.imwrite('img/p2_roi.png',img)
+
+# 图像尺寸
+img = cv2.imread('img/p2.jpeg')
+print(img.shape)    # 宽度、高度、通道数（比如RGB是3）
+print(img.size)     # 像素大小
+print(img.dtype)    # 数据类型
+img = cv2.imread('img/p2.jpeg',cv2.IMREAD_GRAYSCALE)
+print(img.shape)
+print(img.size)
+print(img.dtype)
+
+# 显示图像
+img = cv2.imread('img/p2.jpeg')
+cv2.imshow('show',img)
+cv2.waitKey()
+cv2.destroyAllWindows()
