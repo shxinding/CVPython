@@ -28,7 +28,7 @@
 
 
 笔记可以跳转到：
-(《OpenCV3计算机视觉》读书笔记](https://github.com/xinghalo/CVPython/tree/master/book-opencv)
+[《OpenCV3计算机视觉》读书笔记](https://github.com/xinghalo/CVPython/tree/master/book-opencv)
 
 ## 例子-手写体识别
 
