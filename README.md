@@ -26,8 +26,9 @@
 - 信息提取：轮廓提取、直方图分布、频域信息、人脸识别
 - 结果输出：输出显示
 
-本书的第7章，有讲解关于目标检测与识别的内容，笔记可以跳转到：
 
+笔记可以跳转到：
+(《OpenCV3计算机视觉》读书笔记](https://github.com/xinghalo/CVPython/tree/master/book-opencv)
 
 ## 例子-手写体识别
 
