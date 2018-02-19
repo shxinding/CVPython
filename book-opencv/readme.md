@@ -6,8 +6,21 @@ imread读取图片、imwrite保存图片、imshow显示图片以及常用的视�
 
 最后有一个视频和图片保存的案例
 
+读取视频可以用cv2.VideoCapture(0)
+```bash
+camera = cv2.VideoCapture(0)
+success,frame = camera.read()
+获得该帧
+```
+
 ## 第三章 使用opencv 3 处理图像
 
+在图像中滤波操作也叫做卷积，就是给定一个卷积核进行相应的计算。
+可以做轮廓检测、锐化、模糊等处理
+
+## 第五章 人脸检测和识别
+
+cv2.CascadeClassifier来进行人脸识别
 
 ## 第七章 目标检测与识别
 
